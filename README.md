@@ -1,2 +1,2 @@
-# docs
-⚙ Documentation of RepeatPay.
+# Documentation
+Coming soon <3
