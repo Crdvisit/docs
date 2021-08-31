@@ -1,0 +1,46 @@
+Başlangıç
+
+Programın çalışdığını kontrol etmek için aşağıdaki adrese girelim.
+https://repeatpay.ga/earlyuser/
+
+Eğer sistem çalışıyorsa..
+```json
+{"status":":heavy_check_mark:","quick-docs":"/quick-docs"}
+```
+
+Şunun gibi bir çıktı vermesi gerekmektedir.
+
+- Kullanıcı Tanımlama
+Eğer önceki adım olumlu çıktı döndürdüyse kullanıcı tanımlama kısmına geçebiliriz.
+Bilgilerinizi şu şekilde dolduracaksınız.
+
+- Kullanıcı Tanımlama
+```https://repeatpay.ga/earlyuser/:paparaid/:isim/:açıklama/:üstfotograf/:altfotograf```
+Bilgilerinizi şu şekilde doldurmanız gerekmektedir
+
+-- Tanımlar
+--- Papara hesap id
+--- Sayfada görünecek kullanıcı ismi
+--- Kendiniz hakkında açıklama
+--- Sayfanın üstündeki fotoğraf
+--- Sayfanın altındaki fotoğraf
+Eğer bilgiler doğru girildiyse bu çıktı dönmesi lazım. Url kısmını / dan sonra yazarsanız asıl sayfaya yönlendirilirsiniz.
+```json
+{"status":"success","url":"UZUN YAZI"}
+```
+
+Eğer yanlış bilgi girilirse bu çıktı dönmesi lazım.
+```json
+{"message":"Yanlis_Numara_Girisi"}
+```
+
+Imgur için adresi şu şekilde yazmanız gerek i.imgur.com/<kod> yerine <kod> yazın.
+
+Bitiriş
+
+Eğer kişiselleştirilebilir bir link isterseniz bana support@repeatpay.ga dan veya support@rexulec.com dan ulaşabilirsiniz.
+Herhangi bir hata, bug, açık varsa Github üzerinden Pull Request veya Issue açabilirsin.
+
+Kullanım şartları
+
+Bu site bilgisayar ve ip adresi dışında bir bilgiyi toplamaz veya satmaz. Eğer siteye girdiğiniz herhangi bir bilgilerden birisi çalınırsa bu bizim sorumluluğumuz altında değildir. Site sizden sadece özelleştirilebilir url için bilgi toplar ve kodu database'e ekler. Miktar seçme ekranında girilen bilgiler bize gelmemektedir/toplanmamaktadır. Papara'nın sisteminde oluşabilecek sorunlardan sorumlu değiliz. Bu sözleşmeyi istediğimiz zaman değiştirme veya kaldırma hakkını saklı tutarız. [16.08.2021]
