@@ -1,0 +1,2 @@
+# docs
+⚙ Documentation of RepeatPay.
